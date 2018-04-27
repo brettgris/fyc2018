@@ -1,0 +1,400 @@
+@import "./variables.scss";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	width:100%;
+	height: 100%;
+	position: relative;
+}
+
+a{
+	text-decoration: none !important;
+}
+
+ul{
+	margin-bottom: 0;
+}
+
+li{
+	list-style: none;
+}
+
+.page{
+	height: 100%;
+	display: block;
+	width: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+
+	.wrapper{
+		flex-grow: 1;
+		position: relative;
+	}
+}
+
+
+.overlay{
+	&:before{
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		background: rgba($black,.65);
+		display: block;
+		z-index: 0;
+	}
+}
+
+.fullvideo {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 0;
+
+	video{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		min-width: 100%;
+		min-height: 100%;
+		width: auto;
+		height: auto;
+		z-index: 1;
+		transform: translateX(-50%) translateY(-50%);
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+	}
+
+	&.fitonmobile{
+
+		video{
+			// @include small(){
+				width: 100%;
+				height: 100%;
+				min-width: inherit;
+				min-height: inherit;
+			// }
+		}
+	}
+}
+
+.quote{
+	text-align: center;
+
+
+	&:last-child{
+		h6{
+			margin-bottom: 0;
+		}
+	}
+
+	h3{
+		text-transform: uppercase;
+		font-weight: 700;
+		margin-bottom: 0px;
+		font-size: 21px;
+		color: $white;
+
+		@include large(){
+			font-size: 28px;
+		}
+
+		@include landscape(){
+			font-size: 18px;
+		}
+
+		@include portait(){
+			font-size: 21px;
+		}
+
+		@include laptop(){
+			font-size: 21px;
+		}
+
+		@include mobile(){
+			font-size: 12px;
+		}
+	}
+
+	h6{
+		text-transform: uppercase;
+		color: $gold;
+		font-size: 16px;
+		margin-bottom: 20px;
+		margin-top: 3px;
+		display: block;
+
+		@include landscape(){
+			font-size: 14px;
+			margin-bottom: 10px;
+		}
+
+		@include portait(){
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+
+		@include laptop(){
+			font-size: 15px;
+			margin-bottom: 15px;
+		}
+
+		@include mobile(){
+			font-size: 10px;
+		}
+	}
+
+	h5{
+		margin-bottom: 15px;
+
+		@include landscape(){
+			margin-bottom: 7px;
+		}
+
+		@include portait(){
+			margin-bottom: 20px;
+		}
+
+		@include laptop(){
+			margin-bottom: 7px;
+		}
+	}
+
+	&.reverse{
+		h3{
+			color: $black;
+		}
+	}
+}
+
+.diagonal{
+	width: 45%;
+	padding: 0;
+	position: absolute;
+	// left: 20%;
+	top: 0;
+	min-height: 100%;
+	background: $white;
+
+	@include landscape(){
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	@include small(){
+		width: 100%;
+		min-height: 60%;
+		top: 40%;
+		display: block;
+	}
+
+	@include mobile(){
+		width: 100%;
+		min-height: 100%;
+		top: 0;
+	}
+
+	&:before{
+		content: "";
+		display: block;
+		position: absolute;
+		background: $white;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		bottom:0;
+		left: 0;
+		z-index: 0;
+		transform-origin: 0% 0%;
+		transform: skewX(-7deg);
+		box-shadow: -5px 0 10px 0px rgba($black,.1);
+
+		@include small(){
+			display: none;
+		}
+	}
+
+	&:after{
+		content: "";
+		display: block;
+		position: absolute;
+		background: $white;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		bottom:0;
+		right: 0;
+		z-index: 0;
+		transform-origin: 100% 100%;
+		transform: skewX(-6deg);
+		box-shadow: 5px 0 10px 0px rgba($black,.1);
+
+		@include small(){
+			display: none;
+		}
+	}
+
+	&>div{
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		@include small(){
+			position: absolute;
+			height: auto;
+			min-height: 100%;
+			padding-top: $footer-height;
+			padding-bottom: $footer-height;
+			background: $white;
+		}
+
+		@include laptop{
+			height: auto;
+			position: relative;
+			padding-top: $footer-height;
+			padding-bottom: $footer-height;
+			display: block;
+		}
+
+		@include portait(){
+			//padding-top: 50px;
+		}
+
+		@include mobile(){
+			//padding-top: 20px;
+		}
+	}
+
+	&.left{
+		left: 0;
+	}
+
+	&.center{
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	&.right{
+		right: 0;
+	}
+
+	&.reverse{
+		&:before{
+			transform-origin: 100% 100%;
+			transform: skewX(6deg);
+			box-shadow: -5px 0 10px 0px rgba($black,.1);
+		}
+
+		&:after{
+			transform-origin: 0% 0%;
+			transform: skewX(6deg);
+			box-shadow: 5px 0 10px 0px rgba($black,.1);
+		}
+	}
+
+}
+
+.button{
+	display: block;
+	background: none;
+	border: 2px solid $white;
+	border-radius: 0;
+	color: $white;
+	padding: 5px 20px;
+	position: relative;
+	overflow: hidden;
+
+	cursor: pointer;
+
+	@include mobile(){
+		padding: 4px 15px;
+		font-size: 13px;
+	}
+
+	&:after{
+		content: attr(content);
+		color: $black;
+		background: $white;
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transform: translateY(100%);
+
+		transition: all $transition-speed/2 $transition-ease;
+	}
+
+	&.reverse{
+		border: 2px solid $black;
+		color: $black;
+
+		&:after{
+			color: $white !important;
+			background: $black;
+		}
+	}
+
+	&:hover{
+		&:after{
+			transform: translateY(0%);
+		}
+	}
+
+	&:focus {
+		outline:0;
+	}
+}
+
+.arrows{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	pointer-events: none;
+	z-index: 1000;
+}
+
+.arrow{
+	pointer-events: auto;
+	color: $light-grey !important;
+	cursor: pointer;
+	font-size: 48px;
+
+	@include mobile(){
+		font-size: 35px;
+	}
+
+	&:first-child{
+		margin-left: 15px;
+	}
+
+	&:last-child{
+		margin-right: 15px;
+	}
+
+	@media (pointer: fine) {
+		&:hover{
+			color:$white !important;
+		}
+	}
+}
