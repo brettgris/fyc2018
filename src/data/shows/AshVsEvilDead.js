@@ -33,7 +33,8 @@ export default {
 		"login": require("../../assets/images/ashvsevildead/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/ashvsevildead.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/ashvsevildead.mp4"),
 
 	"synopsis":[
 		"The third season finds Ash, having gone from murderous urban legend to humanity-saving hometown hero, discovering that he has a long lost daughter who's been entrusted in his care. When Kelly witnesses a televised massacre with Ruby's fingerprints all over it, she returns with a new friend to warn Ash and Pablo that evil isn't done with them yet. Blood is thicker than water in the battle of good vs Evil Dead."
@@ -165,6 +166,18 @@ export default {
 			"description": "Ash and Pablo realize that rift in the cellar is the key to saving humanity, and devise a plan to save the ones they love.",
 			"date":"2018-01-01T12:00:00Z",
 			"image": require("../../assets/images/ashvsevildead/episode/308.jpg")
+		},{
+			"number": "309",
+			"title": "Judgement Day",
+			"description": "Pablo's role as Brujo Especiale has him straddle the worlds of good and evil to keep the rift open for Ash to save Brandy and Kelly, but they run into a snag. Ruby and Kaya faceoff with The Dark One.",
+			"date":"2018-01-01T12:00:00Z",
+			"image": require("../../assets/images/ashvsevildead/episode/309.jpg")
+		},{
+			"number": "310",
+			"title": "The Mettle of Man",
+			"description": "The Ghostbeaters are put to the ultimate test to defeat a global demon infestation whose epicenter is Elk Grove. Ash, Pablo, Kelly and Brandy gear up for battle one last time to save the world!",
+			"date":"2018-01-01T12:00:00Z",
+			"image": require("../../assets/images/ashvsevildead/episode/310.jpg")
 		}
 	]
 }

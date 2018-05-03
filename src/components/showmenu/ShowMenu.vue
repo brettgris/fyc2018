@@ -10,7 +10,7 @@
 			<li :class="{selected:route==='synopsis'}" v-if="show.synopsis">
 				<router-link :to="{path:`/show/${show.safename}/`}">Synopsis</router-link>
 			</li>
-			<li :class="{selected:route==='trailer'}" v-if="show.trailer">
+			<li :class="{selected:route==='trailer'}" v-if="show.trailer||show.traileriframe">
 				<router-link :to="{path:`/show/${show.safename}/trailer`}">Trailer</router-link>
 			</li>
 			<li :class="{selected:route==='acclaim'}" v-if="show.acclaim">

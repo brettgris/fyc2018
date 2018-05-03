@@ -33,7 +33,8 @@ export default {
 		"login": require("../../assets/images/sweetbitter/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/sweetbitter.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	//"trailer": require("../../assets/videos/sweetbitter.mp4"),
 
 	"synopsis":[
 		"&#8220;Sweetbitter&#8221; tells the story of Tess, a 22-year-old who arrives in New York City ready to pursue a new life. When she's invited to train at one of the best restaurants in the city, she thinks she's found a steady income and a safe place to wait. But Tess is quickly intoxicated by the chaotic, adrenalized world behind-the-scenes: tasting expensive wine, exploring dive bars, and learning who she can trust."

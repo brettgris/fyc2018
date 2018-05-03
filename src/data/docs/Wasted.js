@@ -29,14 +29,15 @@ export default {
 		"A documentary about the astounding amount of waste in food production and consumption, showcasing how famous chefs transform what most people consider scraps into incredible dishes. Produced and narrated by Anthony Bourdain (&#8220;Anthony Bourdain: Parts Unknown,&#8221; &#8220;The Mind of a Chef&#8221;)."
 	],
 
-   "synopsisart": require("../../assets/images/wasted/synopsis-ta.jpg"),
+   "synopsisart": require("../../assets/images/wasted/synopsis-ta.png"),
 
-   "trailer": require("../../assets/videos/wasted.mp4"),
+   "traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+   // "trailer": require("../../assets/videos/wasted.mp4"),
 
    categories:{
 		"large":[
 			{
-				"title": "Outstanding Documentary<br/>or Nonfiction Special",
+				"title": "Outstanding Documentary or Nonfiction Special",
 				"items":[
 					["Anthony Bourdain", "Joe Caterini", "Christopher Collins"],
 					["Nari Kye", 'Lydia Tenaglia']
@@ -45,7 +46,7 @@ export default {
 		],
 		"left":[
 			{
-				"title": "Outstanding Directing for a Documentary/Nonfiction Program",
+				"title": "Outstanding Directing for a Documentary / Nonfiction Program",
 				"items":[
 					"Anna Chai",
                "Nari Kye"

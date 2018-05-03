@@ -32,7 +32,8 @@ export default {
 		"login": require("../../assets/images/survivorsremorse/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/survivorsremorse.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/survivorsremorse.mp4"),
 
 	"synopsis":[
 		"As the Calloways continue to grow as a family, season 4 takes a deeper dive into each character as they wrestle with adulthood and the secrets of their past. Life off the court continues to be a bigger game than the one on the court - and the human struggle doesn't go away, no matter how much money or success they have. Grounded in relevant, true-to-life struggles, the critically–acclaimed series continues to tackle real-life current issues, no–holds– barred – and with a unique comedic touch."

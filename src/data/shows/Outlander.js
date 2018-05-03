@@ -32,7 +32,8 @@ export default {
 		"login": require("../../assets/images/outlander/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/outlander.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/outlander.mp4"),
 
 	"synopsis":[
 		"Season 3 of &#8220;Outlander&#8221; picks up with Jamie and Claire, separated by continents and centuries, as they attempt to make a life apart from one another, each haunted by the memory of their lost love. Finally reunited, the couple faces adversity and adventure on an epic quest across the high seas into the jungles of the West Indies."

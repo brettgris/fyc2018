@@ -32,7 +32,8 @@ export default {
 		"login": require("../../assets/images/gfe/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/gfe.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/gfe.mp4"),
 
 	"synopsis":[
 		"STARZ Limited Series &#8220;The Girlfriend Experience&#8221; is a reimagining of Steven Soderbergh's 2009 critically acclaimed movie of the same name and explores the relationships between exclusive escorts and their clients, for whom they provide far more than just sex. Known as GFEs, they are women who provide &#8220;The Girlfriend Experience&#8221;-emotional and sexual relationships at a very high price. Season two will focus on entirely new characters and take on a new format by following two parallel storylines each written, directed and executive produced by Lodge Kerrigan and Amy Seimetz. One story centers on the complicated relationship between Erica and Anna (played by Anna Friel and Louisa Krause) during the corrupt political climate of midterm elections, and the other on Bria (Carmen Ejogo), a former GFE provider forced to start a new life in New Mexico but lured by the ghosts of her past. Oscar&reg; and Emmy&reg;-winner Steven Soderbergh (<i>Ocean's Eleven</i>, <i>Magic Mike</i>, &#8220;The Knick&#8221;) and Philip Fleishman serve as executive producers alongside Lodge Kerrigan (<i>Clean</i>, <i>Shaven;</i> &#8220;The Killing&#8221;) and Amy Seimetz (<i>Sun Don't Shine</i>, <i>Alien: Covenant</i>), who are the co-creators, writers and directors on the series. Jeff Cuban, Andrew Fierberg (<i>Secretary</i>, <i>My Art</i>) and Academy&reg; and Golden Globe&reg;-winning producer Adele Romanski (<i>Moonlight</i>) also executive produce."

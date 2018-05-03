@@ -58,8 +58,8 @@
 
 	.art{
 		position: absolute;
-		width: 35%;
-		left: 7%;
+		width: 49.5%;
+		left: 1%;
 		top: 0;
 		height: 100%;
 		background-position: center center;

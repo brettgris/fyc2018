@@ -32,7 +32,8 @@ export default {
 		"login": require("../../assets/images/counterpart/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/counterpart.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/counterpart.mp4"),
 
 	"synopsis":[
 		"Howard Silk (J.K. Simmons) is a lowly cog in the bureaucratic machinery of a Berlin-based United Nations spy agency. When Howard discovers that his organization safeguards the secret of a crossing into a parallel dimension, he is thrust into a shadow world of intrigue, danger, and double cross… where the only man he can trust is his near-identical counterpart from this parallel world. The show explores themes of identity, fate and lost love, posing the eternal question, &#8220;What if our lives could have been different?&#8221;"
@@ -50,11 +51,11 @@ export default {
 			"quote": "&#8220;impeccable&#8221;",
 			"by": "Deadline"
 		},{
-		   "quote":"&#8220;Best new series of 2018.&#8221;",
+			"quote": "&#8220;BEST NEW SHOW OF 2018&#8221;",
 			"by": "IGN"
 		},{
 			"quote": "&#8220;Excellent, Intriguing and Action-packed&#8221;",
-			"by": "LA Times"
+			"by": "Los Angeles Times"
 		}
 	],
 

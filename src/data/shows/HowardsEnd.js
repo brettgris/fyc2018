@@ -32,7 +32,8 @@ export default {
 		"login": require("../../assets/images/howardsend/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/outlander.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/outlander.mp4"),
 
 	"synopsis":[
 		"Often considered E.M. Forster&#8217;s masterpiece, &#8220;Howards End&#8221; is the story of two independent and unconventional sisters seeking love and meaning as they navigate an ever-changing world. Academy Award&reg; winning screenwriter Kenneth Lonergan (<i>Manchester by the Sea</i>, <i>Gangs of New York</i>) brings a fresh take to this adaptation directed by BAFTA&#174; winner Hettie Macdonald  (<i>White Girl</i>, &#8220;Fortitude&#8221;).",
@@ -136,7 +137,12 @@ export default {
 			"description": "Margaret receives an offer from Henry which changes her plans significantly. Helen is distraught to learn the Basts have slid into poverty. In a dramatic encounter at Evie Wilcox's wedding, the three families collide.",
 			"date":"2018-01-01T12:00:00Z",
 			"image": require("../../assets/images/howardsend/episode/103.jpg")
-
+		},{
+			"number": "104",
+			"title": "Episode 4",
+			"description": "Refusing to punish Henry for his past transgressions, Margaret resolves to uphold their engagement. Helen unexpectedly leaves for Europe. The Schlegels, the Wilcoxes and Leonard Bast have a final encounter.",
+			"date":"2018-01-01T12:00:00Z",
+			"image": require("../../assets/images/howardsend/episode/104.jpg")
 		}
 	]
 }

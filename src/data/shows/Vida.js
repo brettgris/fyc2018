@@ -33,7 +33,8 @@ export default {
 		"login": require("../../assets/images/vida/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/vida.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/vida.mp4"),
 
 	"synopsis":[
 		"&#8220;Vida&#8221; is a half-hour series focusing on two Mexican-American sisters from the Eastside of Los Angeles who couldn't be more different or distanced from each other. Circumstances force them to return to their old neighborhood, where they are confronted by the past and surprising truth about their mother’s identity."
@@ -43,13 +44,17 @@ export default {
 		{
 			"quote": "&#8220;Authentic, grounded and like few other shows on tv&#8221;"
 		},{
-			"quote" : "&#8220;Moving&#8221;"
-		},{
-			"quote":  "&#8220;Smart&#8221;",
+			"quote":  "&#8220;Moving&#8221; &#8220;Smart&#8221;",
 			"by": "The Hollywood Reporter"
 		},{
-			"quote": "&#8220;Bold&#8221;  &#8220;Lively&#8221;  &#8220;Buzzworthy&#8221;",
-			"by": "Indiewire"
+			"quote": "&#8220;Brilliant&#8221;  &#8220;Sharp as Hell&#8221;",
+			"by": "Marie Claire"
+		},{
+			"quote": "&#8220;The Trailblazing Series We Need&#8221;",
+			"by": "OUT Magazine"
+		},{
+			"quote": "&#8220;VIDA is a representation of American Identity in Crisis, Played out through a Handful of Compelling, Complex Characters&#8221;",
+			"by": "Village Voice"
 		}
 	],
 

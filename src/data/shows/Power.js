@@ -32,7 +32,8 @@ export default {
 		"login": require("../../assets/images/power/login.jpg"),
 	},
 
-	"trailer": require("../../assets/videos/power.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	// "trailer": require("../../assets/videos/power.mp4"),
 
 	"synopsis":[
 		"&#8220;Power&#8221; Season 4, from Executive Producer Curtis &#8220;50 Cent&#8221; Jackson and show creator Courtney Kemp, follows Ghost's arrest by his ex-girlfriend, AUSA Angela Valdes, for the murder of FBI Agent Greg Knox - a crime he did not commit. Ghost can't outrun his past choices and mounting enemies, which threaten his freedom and his family's safety at every turn. His fight for redemption brings him face-to-face with the Feds, the media, new allies, and old foes. But the biggest obstacle for Ghost remains himself and his internal struggle between the man he wants to be and the one he really is."

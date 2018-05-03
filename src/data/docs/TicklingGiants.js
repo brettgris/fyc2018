@@ -31,7 +31,8 @@ export default {
 
 	"synopsisart": require("../../assets/images/ticklinggiants/synopsis-ta.jpg"),
 
-   "trailer": require("../../assets/videos/ticklinggiants.mp4"),
+	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+   // "trailer": require("../../assets/videos/ticklinggiants.mp4"),
 
    categories:{
 		"large":[
@@ -45,7 +46,7 @@ export default {
 		],
 		"left":[
 			{
-				"title": "Outstanding Directing for a Documentary/Nonfiction Program",
+				"title": "Outstanding Directing for a Documentary / Nonfiction Program",
 				"items":[
 					"Sara Taksler"
 				]

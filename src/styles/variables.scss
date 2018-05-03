@@ -76,7 +76,7 @@ $footer-z: 50;
     @content;
   }
 
-  @include landscape(){
+  @media (max-width: 1350px){
     @content;
   }
 }
