@@ -28,12 +28,10 @@
 		components:{
 			'FontAwesomeIcon': FontAwesomeIcon
 		},
-		timers:{
-			handleTime: { time: 1000, autostart: true }
-		},
 		data(){
 			return{
-				time: 15
+				time: 15,
+				timer: null
 			}
 		},
 		computed:{
@@ -51,13 +49,20 @@
 			if (!this.next) {
 				if(this.show.episodes && this.show.episodes.length>1) this.$router.push( `/show/${this.show.safename}/episodes` );
 				else this.$router.push( `/show/${this.show.safename}` );
+			} else {
+				this.timer = setInterval(this.handleTime, 1000);
 			}
+		},
+		destroyed(){
+			clearInterval( this.timer );
 		},
 		methods:{
 			handleTime(){
 				this.time -= 1;
-				if (this.time>0) this.$timer.start('handleTime');
-				else this.$router.push( `/show/${this.show.safename}/episode/${this.next.number}` )
+				if (this.time===0){
+					clearInterval( this.timer );
+					this.$router.push( `/show/${this.show.safename}/episode/${this.next.number}` );
+				}
 			}
 		}
 	}

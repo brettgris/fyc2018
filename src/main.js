@@ -13,11 +13,7 @@ import solid from "@fortawesome/fontawesome-pro-solid";
 
 import WebFont from 'webfontloader';
 
-import VueTimers from 'vue-timers';
-
 import TestsPlugin from './plugins/TestsPlugin';
-
-Vue.use(VueTimers)
 
 WebFont.load({
    google: {
