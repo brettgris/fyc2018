@@ -33,7 +33,7 @@ export default {
 		"login": require("../../assets/images/vida/login.jpg"),
 	},
 
-	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	"traileriframe": "https://www.starz.com/videos/embed/cd466393-2b57-4266-b485-192b7b334130?footer=false&cid=1056466",
 	// "trailer": require("../../assets/videos/vida.mp4"),
 
 	"synopsis":[

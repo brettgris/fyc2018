@@ -31,7 +31,7 @@ export default {
 
    "synopsisart": require("../../assets/images/wasted/synopsis-ta.png"),
 
-   "traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+   "traileriframe": "https://www.starz.com/videos/embed/6eedb9d7-0ded-447e-be31-e926604d2217?footer=false&cid=1056901",
    // "trailer": require("../../assets/videos/wasted.mp4"),
 
    categories:{

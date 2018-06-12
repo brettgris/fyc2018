@@ -33,7 +33,7 @@ export default {
 		"login": require("../../assets/images/ashvsevildead/login.jpg"),
 	},
 
-	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	"traileriframe": "https://www.starz.com/videos/embed/3f0792f2-28c4-4a96-af88-704b5b949d0e?footer=false&cid=1056243",
 	// "trailer": require("../../assets/videos/ashvsevildead.mp4"),
 
 	"synopsis":[

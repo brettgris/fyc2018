@@ -32,7 +32,7 @@ export default {
 		"login": require("../../assets/images/survivorsremorse/login.jpg"),
 	},
 
-	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	"traileriframe": "https://www.starz.com/videos/embed/37fedf88-f7ac-46a5-98ef-50d257e94102?footer=false&cid=1056303",
 	// "trailer": require("../../assets/videos/survivorsremorse.mp4"),
 
 	"synopsis":[

@@ -31,7 +31,7 @@ export default {
 
    "synopsisart": require("../../assets/images/whathauntsus/synopsis-ta.jpg"),
 
-   "traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+   "traileriframe": "https://www.starz.com/videos/embed/25249abc-fbb6-47d1-b1f7-147fa8657e3e?footer=false&cid=1056915",
    // "trailer": require("../../assets/videos/whathauntsus.mp4"),
 
    categories:{

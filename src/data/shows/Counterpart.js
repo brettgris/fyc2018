@@ -32,7 +32,7 @@ export default {
 		"login": require("../../assets/images/counterpart/login.jpg"),
 	},
 
-	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	"traileriframe": "https://www.starz.com/videos/embed/6c6562fe-7543-4aad-a5d0-e4dec2df8ce1?footer=false&cid=1056630",
 	// "trailer": require("../../assets/videos/counterpart.mp4"),
 
 	"synopsis":[

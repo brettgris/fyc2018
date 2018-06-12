@@ -33,7 +33,7 @@ export default {
 		"login": require("../../assets/images/sweetbitter/login.jpg"),
 	},
 
-	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	"traileriframe": "https://www.starz.com/videos/embed/f37d886e-8270-4797-a5cd-576ac3cd50ac?footer=false&cid=1056979",
 	//"trailer": require("../../assets/videos/sweetbitter.mp4"),
 
 	"synopsis":[
@@ -42,11 +42,17 @@ export default {
 
 	"acclaim":[
 		{
-			"quote": "Based On The National Bestseller",
-			"style": {
-				'color': "#000000",
-				'marginBottom': '10px'
-			}
+			"quote": "&#8220;Binge-worthy&#8221;",
+			"by": "John Powers, Vogue"
+		},{
+			"quote": "&#8220;Tantalizing and Nuanced&#8221;",
+			"by": "Collider"
+		},{
+			"quote": "&#8220;A delectable drama&#8221; &#8220;Remarkably rich&#8221;",
+			"by": "Wall Street Journal"
+		},{
+			"quote": "&#8220;A New York Fantasy&#8221; &#8220;Achingly honest&#8221;",
+			"by": "Refinery 29"
 		}
 	],
 

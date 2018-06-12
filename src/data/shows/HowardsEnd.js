@@ -32,7 +32,7 @@ export default {
 		"login": require("../../assets/images/howardsend/login.jpg"),
 	},
 
-	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	"traileriframe": "https://www.starz.com/videos/embed/c5f21373-b6cb-42bb-9bec-3dc94d3ee99a?footer=false&cid=1056464",
 	// "trailer": require("../../assets/videos/outlander.mp4"),
 
 	"synopsis":[

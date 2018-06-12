@@ -5,7 +5,7 @@ class Auth {
 		this.auth = new auth0.WebAuth({
 			domain:         'starzfyc.auth0.com',
     		clientID:       'GG64MApjYKgJTPs9yMpYb2JfFbW2b2fz',
-    		redirectUri:    'http://stage.starzfyc.com',
+    		redirectUri:    'http://www.starzfyc.com/',
 			responseType: 'token id_token',
     		scope: 'openid'
   		});

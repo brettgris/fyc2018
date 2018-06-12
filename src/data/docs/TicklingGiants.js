@@ -31,7 +31,7 @@ export default {
 
 	"synopsisart": require("../../assets/images/ticklinggiants/synopsis-ta.jpg"),
 
-	"traileriframe": "https://www.starz.com/videos/embed/3930ea9c-3b4f-4eb1-944d-48ab912e1b14?footer=false&cid=ags1pcapril30",
+	"traileriframe": "https://www.starz.com/videos/embed/a0ee6d60-c6ce-458b-a062-093fa6d2bdf2?footer=false&cid=1056912",
    // "trailer": require("../../assets/videos/ticklinggiants.mp4"),
 
    categories:{
